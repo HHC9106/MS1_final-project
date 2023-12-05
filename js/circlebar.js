@@ -1,11 +1,11 @@
 const marginPage = ({ top: 0, right: 10, bottom: 0, left: 10 })
-const widthPage = document.querySelector(".circlebar").clientWidth;
-const heightPage = document.querySelector(".circlebar").clientHeight;
+const widthPage = document.querySelector("#circlebar").clientWidth;
+const heightPage = document.querySelector("#circlebar").clientHeight;
 const ycenter = heightPage / 2;
 const tooltip = d3.select("body").append("div").attr("class", "tooltip");
 
 
-var svg = d3.select(".circlebar")
+var svg = d3.select("#circlebar")
     .append("svg")
     .attr("width", widthPage - marginPage.left - marginPage.right)
     .attr("height", heightPage + marginPage.top + marginPage.bottom)
