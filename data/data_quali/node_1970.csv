@@ -1,0 +1,769 @@
+,id,sum,group
+0,United States Government,2798,1
+1,Millard Acquisition Fund,201,1
+2,Mrs. Norma B. Marin,36,1
+3,Lessing Julius Rosenwald,27,1
+4,Paul Mellon,18,1
+5,Ms. Rebecca Smith,6,1
+6,Ms. Candida Smith,5,1
+7,Mr. and Mrs. Nathan L. Halpern,2,1
+8,Graphicstudio,2,1
+9,Kimbell Art Museum,1,1
+10,Mr. and Mrs. George F. Hemphill,1,1
+11,Mrs. Sally Avery,1,1
+12,Mr. and Mrs. Christopher Middendorf,1,1
+13,Middendorf Gallery,1,1
+14,Leo Castelli,1,1
+15,The Honorable Robert H. Thayer,1,1
+16,Mr. and Mrs. Harry A. Brooks,1,1
+17,Yolande Delasser,1,2
+18,Michael Natalis,1,2
+19,Michael Rekucki,1,2
+20,Georgine E. Mason,1,2
+21,George Seideneck,1,2
+22,Michael Riccitelli,1,2
+23,George Loughridge,1,2
+24,George Fairbanks,1,2
+25,George E. Rhone,1,2
+26,Michele Sanmicheli,1,2
+27,Milton Avery,1,2
+28,Georg Kaspar de Prenner,1,2
+29,Genevieve Jordan,1,2
+30,Gabriele Valvassori,1,2
+31,Gabriel Huquier,1,2
+32,G.I. Delrosso,1,2
+33,Miriam Y. Solomon,1,2
+34,Mona Brown,1,2
+35,François Cornille,1,2
+36,Mortimer Borne,1,2
+37,Gertrude Koch,1,2
+38,Giacomo Quarenghi,1,2
+39,Gilles Marie Oppenord,1,2
+40,Giovanni Battista Mannelli,1,2
+41,Mary Edith Brooks,1,2
+42,Mary Hansen,1,2
+43,Mary Porter,1,2
+44,Gustave Georg Endner,1,2
+45,Guido Ubaldo Abbatini,1,2
+46,Graphicstudio,1,2
+47,Grace Thomas,1,2
+48,Maude Valle,1,2
+49,Maurice Blumenfeld,1,2
+50,Natalie Simon,1,2
+51,Max Unger,1,2
+52,Giuseppe Benedetti,1,2
+53,Girolamo Teti,1,2
+54,Giovanni Paolo Panini,1,2
+55,Michael France,1,2
+56,Giovanni Battista Spampani,1,2
+57,Giovanni Battista Sintes,1,2
+58,Giovanni Battista Pittoni,1,2
+59,Giovanni Battista Piranesi,1,2
+60,Giovanni Battista Nelli,1,2
+61,Gladys M. Guillaudeu,1,2
+62,Mary Berner,1,2
+63,Natalie Thompson,1,2
+64,Frank Eiseman,1,2
+65,F.W. Powell,1,2
+66,Eugene W. McGill,1,2
+67,Eugene R. Szepessy,1,2
+68,Peter C. Ustinoff,1,2
+69,Philibert Boutrois,1,2
+70,Etna Wiswall,1,2
+71,Etienne Charpentier,1,2
+72,Ernest Graham,1,2
+73,Ernest Capaldo,1,2
+74,Ernest Busenbark,1,2
+75,Pierre Lepautre,1,2
+76,Eric Mose,1,2
+77,Emilio Zito,1,2
+78,Pierre Nicolas Rannsonette,1,2
+79,Elsie Wein,1,2
+80,Elmo Fleming,1,2
+81,Pierre Soubeyran,1,2
+82,Pierre-Edme Babel,1,2
+83,Pietro Antonio de Pitri,1,2
+84,Ferdinand Cartier,1,2
+85,Page Coffman,1,2
+86,Filippo Brunelleschi,1,2
+87,Filippo Gagliardi,1,2
+88,Nicolas Cochin,1,2
+89,Nicolas Dorigny,1,2
+90,Francois-Nicolas Martinet,1,2
+91,Franciszek Smuglewicz,1,2
+92,Nicolas Laigniel,1,2
+93,Francis Borelli,1,2
+94,Francesco Maria Francia,1,2
+95,Francesco Faraone Aquila,1,2
+96,Francesco Bufalini,1,2
+97,Nicolas Belin,1,2
+98,Francesco Bartoli,1,2
+99,Orison Daeda,1,2
+100,Floyd R. Sharp,1,2
+101,Orville Skaren,1,2
+102,Florence Milto,1,2
+103,Florence Elizabeth Atkins,1,2
+104,Flora G. Guerra,1,2
+105,Joseph Guarino,1,2
+106,Filippo Vasconi,1,2
+107,Owen Middleton,1,2
+108,Frances Matsubara,1,2
+109,Pietro Santo Bartoli,1,2
+110,Hardin Walsh,1,2
+111,Harold Merriam,1,2
+112,Lazar Rubinstein,1,2
+113,John Cooke,1,2
+114,LeRoy McCarrel,1,2
+115,John Bodine,1,2
+116,John B. Moll,1,2
+117,Johann Wilhelm,1,2
+118,Johann Joseph Dietzler,1,2
+119,Johann Heinrich Ramhoffsky,1,2
+120,Johann Friedrich Greuter,1,2
+121,Johann Andreas Pfeffel I,1,2
+122,Johann Adolph Darnsteds,1,2
+123,Jessie M. Youngs,1,2
+124,LeRoy Robinson,1,2
+125,Jean-Louis Delignon,1,2
+126,Jean-François de Cuvilliés I,1,2
+127,Jean-François Liegme,1,2
+128,Jean-Antoine Belmont,1,2
+129,Jean Michel Chevotet,1,2
+130,Lee Hager,1,2
+131,John Dana,1,2
+132,John Davis,1,2
+133,Lawrence Phillips,1,2
+134,Lawrence Foster,1,2
+135,Joseph de Montalegre,1,2
+136,Joseph Ficcadenti,1,2
+137,Joseph Cannella,1,2
+138,John Winters,1,2
+139,Josephine Miller,1,2
+140,Juanita Donahoo,1,2
+141,Jules Hardouin Mansart,1,2
+142,Jules Lefevere,1,2
+143,John Price,1,2
+144,Jean Colin,1,2
+145,John Petrucci,1,2
+146,John Osbold,1,2
+147,Juste Aurèle Meissonnier,1,2
+148,John Lindermayer,1,2
+149,John Lang,1,2
+150,John Koehl,1,2
+151,Katharine Merrill,1,2
+152,Kurt Melzer,1,2
+153,L. Vladimar Fischer,1,2
+154,John Flaxman,1,2
+155,John Oster,1,2
+156,Harley Kempter,1,2
+157,Jean Charles Allet,1,2
+158,Jean Baptiste Liénard,1,2
+159,Luigi Ughi,1,2
+160,Luther D. Wenrich,1,2
+161,Herbert S. Frere,1,2
+162,Herbert Barnard,1,2
+163,Henry Rasmusen,1,2
+164,Magnus S. Fossum,1,2
+165,Henry Moran,1,2
+166,Helen Siegl,1,2
+167,Helen McCollum,1,2
+168,Marian Curtis Foster,1,2
+169,Hebilly West,1,2
+170,Marie Mitchell,1,2
+171,Mario De Ferrante,1,2
+172,Marius Hansen,1,2
+173,Marjorie Lee,1,2
+174,Harry G. Aberdeen,1,2
+175,Harry Eisman,1,2
+176,Martin Marvie,1,2
+177,Harold Smith,1,2
+178,Lucille Manson,1,2
+179,Louis de Chatillon,1,2
+180,Ignazio Agliaudo,1,2
+181,Inez McCombs,1,2
+182,Jay Katz,1,2
+183,Leonhardt Christoph Sturm,1,2
+184,James O'Mara,1,2
+185,Lester Kausch,1,2
+186,James Baare Turnbull,1,2
+187,Jacques-François Blondel,1,2
+188,Jacques Blondeau,1,2
+189,Lina Manetto,1,2
+190,Lloyd Broome,1,2
+191,Jean Baptiste Réville,1,2
+192,J.-L. Benoist,1,2
+193,Lloyd Quackenbush,1,2
+194,Ivar Julius,1,2
+195,Italian 16th Century,1,2
+196,Israël Silvestre,1,2
+197,Wynna Wright,1,2
+198,Lorenzo Nuvolone,1,2
+199,Louis Annino,1,2
+200,Louis Gersh,1,2
+201,Louis Maldarelli,1,2
+202,Lloyd Charles Lemcke,1,2
+203,Pietro da Cortona,1,2
+204,Otto E. Hake,1,2
+205,Elizabeth Johnson,1,2
+206,Carlo Gregori,1,2
+207,Carlo Fontana,1,2
+208,Carlo Antonini,1,2
+209,Carl O'Bergh,1,2
+210,Carl Frosch,1,2
+211,Thomas Dooley,1,2
+212,Camillio Cungi,1,2
+213,C. Frussotte,1,2
+214,Thomas Holloway,1,2
+215,Thomas Watts,1,2
+216,Bernardo Antonio Vittone,1,2
+217,Bernardino Radi,1,2
+218,V.L. Vance,1,2
+219,Ben Lassen,1,2
+220,Vincelaus Ramponi,1,2
+221,Auguste Renoir,1,2
+222,Arthur Stewart,1,2
+223,Quentin-Pierre Chedel,1,2
+224,Vincent McPharlin,1,2
+225,Tabea Hosier,1,2
+226,Charles Caseau,1,2
+227,Russell Madole,1,2
+228,Clinton Myers,1,2
+229,Cleon Barton,1,2
+230,Salvo Castellucci,1,2
+231,Claude René Gabriel Poulleau,1,2
+232,Claude Perrault,1,2
+233,Claes Oldenburg,1,2
+234,Ciro Ferri,1,2
+235,Christopher Hobbs,1,2
+236,Christian Rieger,1,2
+237,Christian Ludwig Stieglitz,1,2
+238,Christian Heinrich Grünler,1,2
+239,Samuel Philpot,1,2
+240,Charles T. Smith,1,2
+241,Charles McLoin,1,2
+242,Sarah F. Williams,1,2
+243,Shigeru Izumi,1,2
+244,Sébastien Le Clerc I,1,2
+245,Arthur Mathews,1,2
+246,Arthur Johnson,1,2
+247,Arthur G. Merkley,1,2
+248,Wilford H. Shurtliff,1,2
+249,Alfred Koehn,1,2
+250,Willard Hazen,1,2
+251,Alfred Goldstein,1,2
+252,Alfred Denghausen,1,2
+253,William F. Morris,1,2
+254,Alfonso Mirabal,1,2
+255,Alexandre Moisy,1,2
+256,Alexander Anderson,1,2
+257,William Herbert,1,2
+258,William Ludwig,1,2
+259,Albert Gold,1,2
+260,William Schmidt,1,2
+261,Adolph Opstad,1,2
+262,Adele Brooks,1,2
+263,Adelaide Dyball,1,2
+264,Winifred Luten,1,2
+265,Alfred Walbeck,1,2
+266,Alice Domey,1,2
+267,Walther Herman Ryff,1,2
+268,Walter Doran,1,2
+269,Aristide Maillol,1,2
+270,Arelia Arbo,1,2
+271,Vincent Murphy,1,2
+272,Antonio Barbey,1,2
+273,Antonio Balestra,1,2
+274,Antoine-Jean Duclos,1,2
+275,Antoine Joseph Gaitte,1,2
+276,Antoine Herisset,1,2
+277,Roy S. Brown,1,2
+278,Antoine Aveline,1,2
+279,Virgil A. Liberto,1,2
+280,Virginia Bufano,1,2
+281,Anna Aloisi,1,2
+282,Vito Acconci,1,2
+283,Angelo Bulone,1,2
+284,Andrew Topolosky,1,2
+285,Andrea Sacchi,1,2
+286,Andrea Camassei,1,2
+287,Vincenzo Mariotti,1,2
+288,Conrado Barrio,1,2
+289,Theodor Verkruis,1,2
+290,Roger Deats,1,2
+291,Robert Clark,1,2
+292,E.A. Smaller,1,2
+293,Edward F. Engel,1,2
+294,Edward DiGennero,1,2
+295,Dorothea Bates,1,2
+296,Earl Butlin,1,2
+297,Raymond Manupelli,1,2
+298,Edgar Degas,1,2
+299,Raymond McGough,1,2
+300,Rosa Burger,1,2
+301,Robert Tardiff,1,2
+302,Edgar L. Pearce,1,2
+303,Roberta Elvis,1,2
+304,Rocco Navigato,1,2
+305,Conte Alessandro Pompei,1,2
+306,Dayton Brown,1,2
+307,Donald Donovan,1,2
+308,Dolores Haupt,1,2
+309,Dominique Barrière,1,2
+310,Douglas Campbell,1,2
+311,Ranka S. Woods,1,2
+312,Edward Grant,1,2
+313,Domenico Ferretti,1,2
+314,D.P. Jones,1,2
+315,R.E. Schearer,1,2
+316,Dorothy Van Dunker,1,2
+317,Dorothy Posten,1,2
+318,Robert Daudet I,1,2
+319,Cornelis Bloemaert II,1,2
+320,Curry M. Bartlett,1,2
+321,Cornelis Cort,1,2
+322,Eliseo Rodriguez,1,2
+323,Irene Malawicz,2,2
+324,Anne Ger,2,2
+325,Florence Huston,2,2
+326,Dorothy Handy,2,2
+327,Robert Barton,2,2
+328,Pearl Davis,2,2
+329,Eva Wilson,2,2
+330,Arsen Maralian,2,2
+331,Irving L. Biehn,2,2
+332,Isabelle De Strange,2,2
+333,Oscar Bluhme,2,2
+334,Lorenz Rothkranz,2,2
+335,Florence Grant Brown,2,2
+336,Lillian Hunter,2,2
+337,E.J. Gilsleider,2,2
+338,Ossip Zadkine,2,2
+339,Percival Jenner,2,2
+340,Lillian Stahl,2,2
+341,Irving I. Smith,2,2
+342,Isabella Ruth Doerfler,2,2
+343,George C. Brown,2,2
+344,Jean-Baptiste Mallet,2,2
+345,Ralph Russell,2,2
+346,William L. Antrim,2,2
+347,Karl J. Hentz,2,2
+348,William O. Fletcher,2,2
+349,William P. Shearwood,2,2
+350,Eldon Allen,2,2
+351,Albert Eyth,2,2
+352,Albert Camilli,2,2
+353,John Swientochowski,2,2
+354,John Tarantino,2,2
+355,John Thorsen,2,2
+356,R.J. De Freitas,2,2
+357,Pierre-Philippe Choffard,2,2
+358,William Spiecker,2,2
+359,A.R. Tolman,2,2
+360,English 16th Century,2,2
+361,William H. Edwards,2,2
+362,Raymond E. Noble,2,2
+363,William Bos,2,2
+364,Peter Connin,2,2
+365,Eugene C. Miller,2,2
+366,Jean-Jacques-François Le Barbier I,2,2
+367,Peter Schenk,2,2
+368,Jerome Hoxie,2,2
+369,Amos C. Brinton,2,2
+370,W.J. Goodacre,2,2
+371,Raymond Neumann,2,2
+372,Joe Brennan,2,2
+373,Walter L. Webster,2,2
+374,Johann Christoph Weigel,2,2
+375,Johann Jacob Schübler,2,2
+376,Philippe Triere,2,2
+377,Esther Molina,2,2
+378,Erwin Stenzel,2,2
+379,Edward D. Williams,2,2
+380,Edmond Lorts,2,2
+381,Beatrice DeKalb,2,2
+382,Various Artists,2,2
+383,Ilario Spolverini,2,2
+384,Charles Von Urban,2,2
+385,Daniel Fletcher,2,2
+386,Charles Roadman,2,2
+387,Michael Chomyk,2,2
+388,Gladys C. Parker,2,2
+389,Melita Hofmann,2,2
+390,Neva Coffey,2,2
+391,Sara Garfinkel,2,2
+392,Matthew Mangiacotti,2,2
+393,Rolland Livingstone,2,2
+394,Stella Mosher,2,2
+395,Suzanne Roy,2,2
+396,Gwendolyn Jackson,2,2
+397,Rolland Ayres,2,2
+398,Hans Mangelsdorf,2,2
+399,Giovanni Giacomo de Rossi,2,2
+400,Carmel Wilson,2,2
+401,Giovanni Francesco Venturini,2,2
+402,Christabel Scrymser,2,2
+403,Milton Bevier,2,2
+404,Cora Parker,2,2
+405,Michael Trekur,2,2
+406,Cornelius Frazier,2,2
+407,George V. Vezolles,2,2
+408,French 18th Century,2,2
+409,Samuel Faigin,2,2
+410,Clarence Secor,2,2
+411,Michael Lauretano,2,2
+412,Giacomo Manzù,2,2
+413,Michael Heinrich Rentz,2,2
+414,D. Brandfield,2,2
+415,Giovanni Antonio Rusconi,2,2
+416,Franklin C. Moyan,2,2
+417,Moses Bank,2,2
+418,Rosalia Lane,2,2
+419,Carlo Quadri,2,2
+420,Sumner Merrill,2,2
+421,Norman Kamps,2,2
+422,Robert Galvin,2,2
+423,Tulita Westfall,2,2
+424,Orville A. Carroll,2,2
+425,Madeline Arnold,2,2
+426,Bessie Vandre,2,2
+427,Domenico Egidio Rossi,2,2
+428,Orrie McCombs,2,2
+429,Betty Jacob,2,2
+430,Henry Moore,2,2
+431,Henry Granet,2,2
+432,Margaret Golden,2,2
+433,M. Rosenshield-von-Paulin,2,2
+434,Lucille Lacoursiere,2,2
+435,Burton Ewing,2,2
+436,Ursula Lauderdale,2,2
+437,Helen D. Bashian,2,2
+438,Valerien Regnard,2,2
+439,Theodore Pfitzer,2,2
+440,Hugh Clarke,2,2
+441,Marie Alain,2,2
+442,Helen Alpiner Blumenstiel,2,2
+443,Lucille Gilchrist,2,2
+444,Howell Rosenbaum,2,2
+445,Hazel Sheckler,2,2
+446,Thomas Byrne,2,2
+447,William Paul Childers,3,2
+448,Joseph Stonefield,3,2
+449,Orville Cline,3,2
+450,Ralph Atkinson,3,2
+451,Vincent Burzy,3,2
+452,Rosamond P. Gray,3,2
+453,Louis Plogsted,3,2
+454,Molly Bodenstein,3,2
+455,Samuel Fineman,3,2
+456,Ralph Morton,3,2
+457,William Kerby,3,2
+458,Samuel O. Klein,3,2
+459,Vincenzo Franceschini,3,2
+460,Manuel G. Runyan,3,2
+461,Samuel W. Ford,3,2
+462,Wellington Blewett,3,2
+463,Margaret Stottlemeyer,3,2
+464,Wayne White,3,2
+465,Lena Nastasi,3,2
+466,Paul Poffinbarger,3,2
+467,Robert Frank,3,2
+468,Therkel Anderson,3,2
+469,Renee A. Monfalcone,3,2
+470,Mabel Ritter,3,2
+471,Joseph Shapiro,3,2
+472,A. Regli,3,2
+473,Isidore Sovensky,3,2
+474,Isidore Danziger,3,2
+475,Archie Thompson,3,2
+476,Arthur Wegg,3,2
+477,Herman O. Stroh,3,2
+478,Herbert Marsh,3,2
+479,Bernard Krieger,3,2
+480,Henrietta S. Hukill,3,2
+481,Carl Keksi,3,2
+482,Cecil Smith,3,2
+483,Charles Bowman,3,2
+484,Gwyneth King,3,2
+485,Charles Louis Clérisseau,3,2
+486,Charles Louis Lingée,3,2
+487,Charles Moss,3,2
+488,Anthony Zuccarello,3,2
+489,Gilbert Sackerman,3,2
+490,George Constantine,3,2
+491,Donald Harding,3,2
+492,Fred Hassebrock,3,2
+493,Donald Humphrey,3,2
+494,Donald Streeter,3,2
+495,Frank Budash,3,2
+496,Francisco Alvarez,3,2
+497,Dorothy Harris,3,2
+498,Edith Miller,3,2
+499,Edward Bashaw,3,2
+500,Eldora P. Lorenzini,3,2
+501,Eugene Bartz,3,2
+502,Elizabeth Fairchild,3,2
+503,Elizabeth Valentine,3,2
+504,Gerald Bernhardt,3,2
+505,Annie B. Johnston,3,2
+506,Carlo Faucci,3,2
+507,Alessandro Specchi,3,2
+508,John Cutting,3,2
+509,John Collins,3,2
+510,Albert Pratt,3,2
+511,John Wilkes,3,2
+512,Alf Bruseth,3,2
+513,Joseph L. Boyd,3,2
+514,A. Zimet,3,2
+515,Joseph Glover,3,2
+516,Ruth Abrams,4,2
+517,Kalamian Walton,4,2
+518,S. Brodsky,4,2
+519,Kapousouz,4,2
+520,Clarence W. Dawson,4,2
+521,Albert Rudin,4,2
+522,Pearl Torell,4,2
+523,Albert Taxson,4,2
+524,Giuseppe Zocchi,4,2
+525,Glenn Wilson,4,2
+526,Maurice Van Felix,4,2
+527,Sarkis Erganian,4,2
+528,Maud M. Holme,4,2
+529,Sidney Liswood,4,2
+530,H. Langden Brown,4,2
+531,Clyde L. Cheney,4,2
+532,Giovanni Filippo Ciocchi,4,2
+533,David S. De Vault,4,2
+534,Eugene Shellady,4,2
+535,Edward White,4,2
+536,Paul Ward,4,2
+537,Evelyn Bailey,4,2
+538,Palmyra Pimentel,4,2
+539,Edna C. Rex,4,2
+540,Regina Henderer,4,2
+541,Aaron Fastovsky,4,2
+542,Roy Weber,4,2
+543,Juanita Lantz,4,2
+544,Robert Gilson,4,2
+545,Robert Stewart,4,2
+546,Frank McEntee,4,2
+547,Frank Nelson,4,2
+548,Mary Fitzgerald,4,2
+549,Julius Bellamy,4,2
+550,William McAuley,4,2
+551,Frank C. Barks,4,2
+552,Julie C. Brush,4,2
+553,Emile Cero,4,2
+554,Margaret Linsley,4,2
+555,Sydney Roberts,4,2
+556,LeRoy Griffith,4,2
+557,Victor F. Muollo,4,2
+558,Herbert Russin,4,2
+559,Van Silvay,4,2
+560,Margaret Knapp,4,2
+561,Ardella Watkins,4,2
+562,Irene M. Burge,4,2
+563,Jean Honoré Fragonard,4,2
+564,Marian Page,4,2
+565,Lucille Chabot,4,2
+566,Leslie Macklem,4,2
+567,Walter Praefke,4,2
+568,Marie Famularo,4,2
+569,Walter Hochstrasser,4,2
+570,Ella Josephine Sterling,4,2
+571,Lon Cronk,5,2
+572,Howard Weld,5,2
+573,Dorothy Brennan,5,2
+574,Alvin M. Gully,5,2
+575,Dorothy Dwin,5,2
+576,Vincent P. Rosel,5,2
+577,John Sullivan,5,2
+578,Jerry Guinta,5,2
+579,Albert Levone,5,2
+580,Richard Taylor,5,2
+581,Richard Schoene,5,2
+582,Richard Barnett,5,2
+583,Florence Truelson,5,2
+584,Anne Colman,5,2
+585,Florence Stevenson,5,2
+586,Janet Riza,5,2
+587,Vincenzo Scamozzi,5,2
+588,Fletcher Hanks,5,2
+589,J. Henry Marley,5,2
+590,Alice Stearns,5,2
+591,Ferdinando Ruggieri,5,2
+592,Albert Geuppert,5,2
+593,Martin Partyka,5,2
+594,Ludmilla Calderon,5,2
+595,Hilda Olson,5,2
+596,Charles Cullen,5,2
+597,Stanley Mazur,5,2
+598,Stanley Chin,5,2
+599,Alfonso Moreno,5,2
+600,John H. Tercuzzi,5,2
+601,Hazel Hyde,5,2
+602,Carl Strehlau,5,2
+603,Gordon Saltar,5,2
+604,Alfonso Umana,5,2
+605,Max Fernekes,5,2
+606,Alton K. Skillin,5,2
+607,Frank M. Keane,5,2
+608,Helen E. Gilman,5,2
+609,William Hoffman,5,2
+610,Geoffrey Holt,5,2
+611,Frederick Jackson,5,2
+612,Margery Parish,5,2
+613,Mildred Prince,5,2
+614,Henry Tomaszewski,5,2
+615,Walter W. Jennings,5,2
+616,Bernardo Sansone Sgrilli,5,2
+617,Sadie Berman,5,2
+618,Alice Cosgrove,5,2
+619,Alfred Nason,6,2
+620,Ann Gene Buckley,6,2
+621,Einar Heiberg,6,2
+622,Dana Bartlett,6,2
+623,Benjamin Resnick,6,2
+624,Elisabeth Fulda,6,2
+625,Charlotte Angus,6,2
+626,Vignola,6,2
+627,Betty Fuerst,6,2
+628,Eugene La Foret,6,2
+629,Joseph Leboit,6,2
+630,Lyman Young,6,2
+631,Florence Hastings,6,2
+632,Katherine Hastings,6,2
+633,Irene Lawson,6,2
+634,Marie Lutrell,6,2
+635,J. Howard Iams,6,2
+636,John Fisk,6,2
+637,John Matulis,6,2
+638,Paul Farkas,6,2
+639,John Dixon,6,2
+640,Frances Cohen,6,2
+641,George Robin,6,2
+642,Lelah Nelson,6,2
+643,Columbus Simpson,7,2
+644,Laura Bilodeau,7,2
+645,Fritz Boehmer,7,2
+646,Ruth M. Barnes,7,2
+647,Leo Drozdoff,7,2
+648,Sebastian Simonet,7,2
+649,James M. Lawson,7,2
+650,Max Soltmann,7,2
+651,Jacob Lipkin,7,2
+652,Jacob Gielens,7,2
+653,Charles Goodwin,7,2
+654,Hans Westendorff,7,2
+655,Harriette Gale,7,2
+656,Cecily Edwards,7,2
+657,Ingrid Selmer-Larsen,7,2
+658,Henry Meyers,7,2
+659,Lillian Causey,7,2
+660,John Hall,7,2
+661,Austin L. Davison,7,2
+662,Albert Ryder,7,2
+663,Nicholas Zupa,7,2
+664,Edith Magnette,7,2
+665,Frank Fumagalli,7,2
+666,Eugene Barrell,7,2
+667,Ray Price,7,2
+668,E. Boyd,7,2
+669,Joseph Goldberg,7,2
+670,Florian Rokita,7,2
+671,Amelia Tuccio,8,2
+672,Gordena Jackson,8,2
+673,John W. Kelleher,8,2
+674,Randolph F. Miller,8,2
+675,Jack Staloff,8,2
+676,Syrena Swanson,8,2
+677,Harry Grossen,8,2
+678,Philip Johnson,8,2
+679,Elizabeth Moutal,8,2
+680,Ethel Dougan,8,2
+681,Grace Halpin,8,2
+682,Flora Merchant,8,2
+683,Joseph Rothenberg,8,2
+684,Salvatore Borrazzo,8,2
+685,Frances Lichten,8,2
+686,Karl Joubert,8,2
+687,William Frank,9,2
+688,David P Willoughby,9,2
+689,John R. Towers,9,2
+690,Sebastiano Serlio,9,2
+691,Al Curry,9,2
+692,Nicholas Amantea,9,2
+693,Edward Jewett,9,2
+694,Harry Jennings,10,2
+695,Carl Buergerniss,10,2
+696,David Ramage,10,2
+697,William Kieckhofel,10,2
+698,Charles Garjian,10,2
+699,"Ernest A. Towers, Jr.",10,2
+700,Horace Reina,10,2
+701,Vera Van Voris,10,2
+702,Henry Murphy,10,2
+703,Franklyn Syres,10,2
+704,David Smith,11,2
+705,James McLellan,11,2
+706,Frank Gray,11,2
+707,Violet Hartenstein,11,2
+708,Ellen Duncan,12,2
+709,Bernard Westmacott,12,2
+710,Wilbur M Rice,12,2
+711,Filippo Porreca,12,2
+712,Alfred H. Smith,12,2
+713,John Garay,12,2
+714,Robert Pohle,13,2
+715,Chris Makrenos,13,2
+716,Milton Grubstein,13,2
+717,Elmer Weise,13,2
+718,Holger Hansen,13,2
+719,Mildred E. Bent,13,2
+720,Elmer G. Anderson,13,2
+721,Helen Bronson,13,2
+722,Hal Blakeley,14,2
+723,Giacinto Capelli,14,2
+724,Herman Bader,14,2
+725,George Bellows,14,2
+726,Rollington Campbell,14,2
+727,Nicholas Acampora,14,2
+728,Raoul Du Bois,14,2
+729,Clayton Braun,14,2
+730,Selma Sandler,15,2
+731,Simon Weiss,15,2
+732,Elmer R. Kottcamp,15,2
+733,Bertha Semple,15,2
+734,Vincent Carano,15,2
+735,Verna Tallman,15,2
+736,Helen Hobart,15,2
+737,Isidore Steinberg,15,2
+738,Mary E. Humes,16,2
+739,Josephine C. Romano,16,2
+740,Eva Fox,16,2
+741,George File,17,2
+742,Charles Henning,17,2
+743,Rose Campbell-Gerke,18,2
+744,Ray Holden,18,2
+745,Michael Fenga,19,2
+746,Arthur P. Reynolds,19,2
+747,Gordon Sanborn,20,2
+748,Robert W.R. Taylor,20,2
+749,Francis Law Durand,20,2
+750,Eugene Croe,21,2
+751,Charlotte Winter,22,2
+752,Rex F. Bush,22,2
+753,Mildred Ford,23,2
+754,Joseph-Marie Vien,24,2
+755,Cornelius Christoffels,25,2
+756,Gerald Transpota,27,2
+757,Beverly Chichester,27,2
+758,Jane Iverson,29,2
+759,Edith Towner,31,2
+760,Lawrence Flynn,32,2
+761,Edward L. Loper,33,2
+762,Harry Mann Waddell,34,2
+763,John Marin,36,2
+764,Hester Duany,40,2
+765,Majel G. Claflin,41,2
+766,Mina Lowry,52,2
+767,American 20th Century,64,2

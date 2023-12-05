@@ -1,0 +1,1594 @@
+{
+  "nodes":[
+    {
+      "id": "Afghanistan",
+      "group": 4
+    },
+    {
+      "id": "Albania",
+      "group": 1
+    },
+    {
+      "id": "Algeria",
+      "group": 1
+    },
+    {
+      "id": "Angola",
+      "group": 1
+    },
+    {
+      "id": "Argentina",
+      "group": 1
+    },
+    {
+      "id": "Armenia",
+      "group": 1
+    },
+    {
+      "id": "Australia",
+      "group": 1
+    },
+    {
+      "id": "Austria",
+      "group": 1
+    },
+    {
+      "id": "Azerbaijan",
+      "group": 1
+    },
+    {
+      "id": "Bangladesh",
+      "group": 1
+    },
+    {
+      "id": "Belarus",
+      "group": 1
+    },
+    {
+      "id": "Belgium",
+      "group": 1
+    },
+    {
+      "id": "Bolivia (Plurinational State of)",
+      "group": 1
+    },
+    {
+      "id": "Bosnia and Herzegovina",
+      "group": 1
+    },
+    {
+      "id": "Brazil",
+      "group": 1
+    },
+    {
+      "id": "Bulgaria",
+      "group": 1
+    },
+    {
+      "id": "Burundi",
+      "group": 1
+    },
+    {
+      "id": "Canada",
+      "group": 1
+    },
+    {
+      "id": "Central African Rep.",
+      "group": 1
+    },
+    {
+      "id": "Chile",
+      "group": 1
+    },
+    {
+      "id": "Colombia",
+      "group": 1
+    },
+    {
+      "id": "Costa Rica",
+      "group": 1
+    },
+    {
+      "id": "Cote d'Ivoire",
+      "group": 1
+    },
+    {
+      "id": "Croatia",
+      "group": 1
+    },
+    {
+      "id": "Cyprus",
+      "group": 1
+    },
+    {
+      "id": "Czechia",
+      "group": 1
+    },
+    {
+      "id": "Denmark",
+      "group": 1
+    },
+    {
+      "id": "Dominican Rep.",
+      "group": 1
+    },
+    {
+      "id": "Ecuador",
+      "group": 1
+    },
+    {
+      "id": "Egypt",
+      "group": 1
+    },
+    {
+      "id": "El Salvador",
+      "group": 1
+    },
+    {
+      "id": "Estonia",
+      "group": 1
+    },
+    {
+      "id": "Ethiopia",
+      "group": 1
+    },
+    {
+      "id": "Finland",
+      "group": 1
+    },
+    {
+      "id": "France",
+      "group": 1
+    },
+    {
+      "id": "Georgia",
+      "group": 1
+    },
+    {
+      "id": "Germany",
+      "group": 1
+    },
+    {
+      "id": "Ghana",
+      "group": 1
+    },
+    {
+      "id": "Greece",
+      "group": 1
+    },
+    {
+      "id": "Guatemala",
+      "group": 1
+    },
+    {
+      "id": "Guinea",
+      "group": 1
+    },
+    {
+      "id": "Hungary",
+      "group": 1
+    },
+    {
+      "id": "Iceland",
+      "group": 1
+    },
+    {
+      "id": "India",
+      "group": 1
+    },
+    {
+      "id": "Indonesia",
+      "group": 1
+    },
+    {
+      "id": "Iraq",
+      "group": 1
+    },
+    {
+      "id": "Ireland",
+      "group": 1
+    },
+    {
+      "id": "Italy",
+      "group": 1
+    },
+    {
+      "id": "Kazakhstan",
+      "group": 1
+    },
+    {
+      "id": "Kuwait",
+      "group": 1
+    },
+    {
+      "id": "Kyrgyzstan",
+      "group": 1
+    },
+    {
+      "id": "Latvia",
+      "group": 1
+    },
+    {
+      "id": "Lebanon",
+      "group": 1
+    },
+    {
+      "id": "Liberia",
+      "group": 1
+    },
+    {
+      "id": "Libya",
+      "group": 1
+    },
+    {
+      "id": "Lithuania",
+      "group": 1
+    },
+    {
+      "id": "Luxembourg",
+      "group": 1
+    },
+    {
+      "id": "Malaysia",
+      "group": 1
+    },
+    {
+      "id": "Mali",
+      "group": 1
+    },
+    {
+      "id": "Malta",
+      "group": 1
+    },
+    {
+      "id": "Mauritania",
+      "group": 1
+    },
+    {
+      "id": "Mexico",
+      "group": 1
+    },
+    {
+      "id": "Montenegro",
+      "group": 1
+    },
+    {
+      "id": "Morocco",
+      "group": 1
+    },
+    {
+      "id": "Myanmar",
+      "group": 6
+    },
+    {
+      "id": "Nepal",
+      "group": 1
+    },
+    {
+      "id": "Netherlands",
+      "group": 1
+    },
+    {
+      "id": "New Zealand",
+      "group": 1
+    },
+    {
+      "id": "Niger",
+      "group": 1
+    },
+    {
+      "id": "Nigeria",
+      "group": 1
+    },
+    {
+      "id": "North Macedonia",
+      "group": 1
+    },
+    {
+      "id": "Norway",
+      "group": 1
+    },
+    {
+      "id": "Pakistan",
+      "group": 1
+    },
+    {
+      "id": "Panama",
+      "group": 1
+    },
+    {
+      "id": "Paraguay",
+      "group": 1
+    },
+    {
+      "id": "Peru",
+      "group": 1
+    },
+    {
+      "id": "Philippines",
+      "group": 1
+    },
+    {
+      "id": "Poland",
+      "group": 1
+    },
+    {
+      "id": "Portugal",
+      "group": 1
+    },
+    {
+      "id": "Rep. of Korea",
+      "group": 1
+    },
+    {
+      "id": "Rep. of Moldova",
+      "group": 1
+    },
+    {
+      "id": "Romania",
+      "group": 1
+    },
+    {
+      "id": "Russian Federation",
+      "group": 1
+    },
+    {
+      "id": "Saudi Arabia",
+      "group": 1
+    },
+    {
+      "id": "Serbia and Kosovo: S/RES/1244 (1999)",
+      "group": 1
+    },
+    {
+      "id": "Sint Maarten (Dutch part)",
+      "group": 1
+    },
+    {
+      "id": "Slovakia",
+      "group": 1
+    },
+    {
+      "id": "Slovenia",
+      "group": 1
+    },
+    {
+      "id": "Somalia",
+      "group": 1
+    },
+    {
+      "id": "South Sudan",
+      "group": 5
+    },
+    {
+      "id": "Spain",
+      "group": 1
+    },
+    {
+      "id": "Sri Lanka",
+      "group": 1
+    },
+    {
+      "id": "Suriname",
+      "group": 1
+    },
+    {
+      "id": "Sweden",
+      "group": 1
+    },
+    {
+      "id": "Switzerland",
+      "group": 1
+    },
+    {
+      "id": "Syrian Arab Rep.",
+      "group": 2
+    },
+    {
+      "id": "Tajikistan",
+      "group": 1
+    },
+    {
+      "id": "Thailand",
+      "group": 1
+    },
+    {
+      "id": "Togo",
+      "group": 1
+    },
+    {
+      "id": "Trinidad and Tobago",
+      "group": 1
+    },
+    {
+      "id": "Tunisia",
+      "group": 1
+    },
+    {
+      "id": "Turkey",
+      "group": 1
+    },
+    {
+      "id": "Uganda",
+      "group": 1
+    },
+    {
+      "id": "Ukraine",
+      "group": 1
+    },
+    {
+      "id": "United Arab Emirates",
+      "group": 1
+    },
+    {
+      "id": "United Kingdom of Great Britain and Northern Ireland",
+      "group": 1
+    },
+    {
+      "id": "United Rep. of Tanzania",
+      "group": 1
+    },
+    {
+      "id": "United States of America",
+      "group": 1
+    },
+    {
+      "id": "Uruguay",
+      "group": 1
+    },
+    {
+      "id": "Venezuela (Bolivarian Republic of)",
+      "group": 3
+    },
+    {
+      "id": "Yemen",
+      "group": 1
+    },
+    {
+      "id": "Zambia",
+      "group": 1
+    }
+  ],
+  "links":[
+    {
+      "source": "Afghanistan",
+      "target": "Armenia",
+      "weight": 5
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Australia",
+      "weight": 436
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Austria",
+      "weight": 3137
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Azerbaijan",
+      "weight": 517
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Belarus",
+      "weight": 11
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Belgium",
+      "weight": 3104
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Bosnia and Herzegovina",
+      "weight": 37
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Bulgaria",
+      "weight": 1736
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Canada",
+      "weight": 226
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Croatia",
+      "weight": 803
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Cyprus",
+      "weight": 14
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Czechia",
+      "weight": 12
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Denmark",
+      "weight": 115
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Egypt",
+      "weight": 14
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Finland",
+      "weight": 364
+    },
+    {
+      "source": "Afghanistan",
+      "target": "France",
+      "weight": 13063
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Germany",
+      "weight": 11311
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Greece",
+      "weight": 13271
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Hungary",
+      "weight": 25
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Iceland",
+      "weight": 55
+    },
+    {
+      "source": "Afghanistan",
+      "target": "India",
+      "weight": 1286
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Indonesia",
+      "weight": 40
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Iraq",
+      "weight": 8
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Ireland",
+      "weight": 72
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Italy",
+      "weight": 638
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Kazakhstan",
+      "weight": 144
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Kyrgyzstan",
+      "weight": 46
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Latvia",
+      "weight": 8
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Libya",
+      "weight": 5
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Lithuania",
+      "weight": 9
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Luxembourg",
+      "weight": 94
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Malaysia",
+      "weight": 265
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Montenegro",
+      "weight": 25
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Netherlands",
+      "weight": 571
+    },
+    {
+      "source": "Afghanistan",
+      "target": "New Zealand",
+      "weight": 13
+    },
+    {
+      "source": "Afghanistan",
+      "target": "North Macedonia",
+      "weight": 47
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Norway",
+      "weight": 135
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Pakistan",
+      "weight": 1285
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Peru",
+      "weight": 5
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Poland",
+      "weight": 124
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Portugal",
+      "weight": 30
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Rep. of Korea",
+      "weight": 8
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Romania",
+      "weight": 2386
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Russian Federation",
+      "weight": 572
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Serbia and Kosovo: S/RES/1244 (1999)",
+      "weight": 66
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Slovakia",
+      "weight": 50
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Slovenia",
+      "weight": 754
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Spain",
+      "weight": 32
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Sri Lanka",
+      "weight": 19
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Sweden",
+      "weight": 1210
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Switzerland",
+      "weight": 1681
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Syrian Arab Rep.",
+      "weight": 9
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Tajikistan",
+      "weight": 1090
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Thailand",
+      "weight": 36
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Turkey",
+      "weight": 22606
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Ukraine",
+      "weight": 215
+    },
+    {
+      "source": "Afghanistan",
+      "target": "United Kingdom of Great Britain and Northern Ireland",
+      "weight": 1871
+    },
+    {
+      "source": "Afghanistan",
+      "target": "United States of America",
+      "weight": 140
+    },
+    {
+      "source": "Afghanistan",
+      "target": "Uruguay",
+      "weight": 5
+    },
+    {
+      "source": "Myanmar",
+      "target": "Australia",
+      "weight": 213
+    },
+    {
+      "source": "Myanmar",
+      "target": "Bangladesh",
+      "weight": 5
+    },
+    {
+      "source": "Myanmar",
+      "target": "France",
+      "weight": 23
+    },
+    {
+      "source": "Myanmar",
+      "target": "Germany",
+      "weight": 267
+    },
+    {
+      "source": "Myanmar",
+      "target": "Greece",
+      "weight": 25
+    },
+    {
+      "source": "Myanmar",
+      "target": "India",
+      "weight": 807
+    },
+    {
+      "source": "Myanmar",
+      "target": "Indonesia",
+      "weight": 405
+    },
+    {
+      "source": "Myanmar",
+      "target": "Ireland",
+      "weight": 5
+    },
+    {
+      "source": "Myanmar",
+      "target": "Malaysia",
+      "weight": 5264
+    },
+    {
+      "source": "Myanmar",
+      "target": "Nepal",
+      "weight": 17
+    },
+    {
+      "source": "Myanmar",
+      "target": "Netherlands",
+      "weight": 26
+    },
+    {
+      "source": "Myanmar",
+      "target": "Norway",
+      "weight": 11
+    },
+    {
+      "source": "Myanmar",
+      "target": "Rep. of Korea",
+      "weight": 37
+    },
+    {
+      "source": "Myanmar",
+      "target": "Sweden",
+      "weight": 6
+    },
+    {
+      "source": "Myanmar",
+      "target": "Switzerland",
+      "weight": 9
+    },
+    {
+      "source": "Myanmar",
+      "target": "United Kingdom of Great Britain and Northern Ireland",
+      "weight": 22
+    },
+    {
+      "source": "Myanmar",
+      "target": "United States of America",
+      "weight": 1008
+    },
+    {
+      "source": "South Sudan",
+      "target": "Australia",
+      "weight": 22
+    },
+    {
+      "source": "South Sudan",
+      "target": "Belgium",
+      "weight": 5
+    },
+    {
+      "source": "South Sudan",
+      "target": "Burundi",
+      "weight": 7
+    },
+    {
+      "source": "South Sudan",
+      "target": "Central African Rep.",
+      "weight": 5
+    },
+    {
+      "source": "South Sudan",
+      "target": "Egypt",
+      "weight": 941
+    },
+    {
+      "source": "South Sudan",
+      "target": "Ethiopia",
+      "weight": 44
+    },
+    {
+      "source": "South Sudan",
+      "target": "France",
+      "weight": 9
+    },
+    {
+      "source": "South Sudan",
+      "target": "Germany",
+      "weight": 21
+    },
+    {
+      "source": "South Sudan",
+      "target": "Greece",
+      "weight": 14
+    },
+    {
+      "source": "South Sudan",
+      "target": "India",
+      "weight": 11
+    },
+    {
+      "source": "South Sudan",
+      "target": "Italy",
+      "weight": 7
+    },
+    {
+      "source": "South Sudan",
+      "target": "Liberia",
+      "weight": 5
+    },
+    {
+      "source": "South Sudan",
+      "target": "Libya",
+      "weight": 77
+    },
+    {
+      "source": "South Sudan",
+      "target": "Malaysia",
+      "weight": 5
+    },
+    {
+      "source": "South Sudan",
+      "target": "Malta",
+      "weight": 45
+    },
+    {
+      "source": "South Sudan",
+      "target": "Morocco",
+      "weight": 377
+    },
+    {
+      "source": "South Sudan",
+      "target": "Netherlands",
+      "weight": 8
+    },
+    {
+      "source": "South Sudan",
+      "target": "Tunisia",
+      "weight": 5
+    },
+    {
+      "source": "South Sudan",
+      "target": "Uganda",
+      "weight": 1679
+    },
+    {
+      "source": "South Sudan",
+      "target": "United Kingdom of Great Britain and Northern Ireland",
+      "weight": 47
+    },
+    {
+      "source": "South Sudan",
+      "target": "United States of America",
+      "weight": 33
+    },
+    {
+      "source": "South Sudan",
+      "target": "Zambia",
+      "weight": 10
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Albania",
+      "weight": 7
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Algeria",
+      "weight": 336
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Angola",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Argentina",
+      "weight": 17
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Armenia",
+      "weight": 24
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Australia",
+      "weight": 47
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Austria",
+      "weight": 5121
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Azerbaijan",
+      "weight": 13
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Belarus",
+      "weight": 17
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Belgium",
+      "weight": 1725
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Bosnia and Herzegovina",
+      "weight": 10
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Brazil",
+      "weight": 33
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Bulgaria",
+      "weight": 1089
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Canada",
+      "weight": 65
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Cote d'Ivoire",
+      "weight": 8
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Croatia",
+      "weight": 68
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Cyprus",
+      "weight": 1811
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Czechia",
+      "weight": 22
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Denmark",
+      "weight": 379
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Ecuador",
+      "weight": 9
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Estonia",
+      "weight": 6
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Ethiopia",
+      "weight": 19
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Finland",
+      "weight": 83
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "France",
+      "weight": 2899
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Georgia",
+      "weight": 20
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Germany",
+      "weight": 40570
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Ghana",
+      "weight": 17
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Greece",
+      "weight": 9724
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Guinea",
+      "weight": 17
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Hungary",
+      "weight": 9
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Iceland",
+      "weight": 70
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "India",
+      "weight": 33
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Indonesia",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Ireland",
+      "weight": 51
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Italy",
+      "weight": 62
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Kuwait",
+      "weight": 22
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Kyrgyzstan",
+      "weight": 8
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Latvia",
+      "weight": 12
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Liberia",
+      "weight": 15
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Libya",
+      "weight": 2245
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Lithuania",
+      "weight": 9
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Luxembourg",
+      "weight": 305
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Malaysia",
+      "weight": 102
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Mali",
+      "weight": 21
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Malta",
+      "weight": 133
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Mauritania",
+      "weight": 50
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Mexico",
+      "weight": 7
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Montenegro",
+      "weight": 10
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Netherlands",
+      "weight": 4154
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Niger",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Nigeria",
+      "weight": 137
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "North Macedonia",
+      "weight": 23
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Norway",
+      "weight": 572
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Paraguay",
+      "weight": 6
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Philippines",
+      "weight": 13
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Poland",
+      "weight": 43
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Portugal",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Rep. of Korea",
+      "weight": 19
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Rep. of Moldova",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Romania",
+      "weight": 1464
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Russian Federation",
+      "weight": 218
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Saudi Arabia",
+      "weight": 877
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Serbia and Kosovo: S/RES/1244 (1999)",
+      "weight": 670
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Slovakia",
+      "weight": 43
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Slovenia",
+      "weight": 61
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Somalia",
+      "weight": 12
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Spain",
+      "weight": 400
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Sweden",
+      "weight": 1856
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Switzerland",
+      "weight": 904
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Thailand",
+      "weight": 11
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Togo",
+      "weight": 6
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Trinidad and Tobago",
+      "weight": 8
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Uganda",
+      "weight": 8
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Ukraine",
+      "weight": 102
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "United Arab Emirates",
+      "weight": 74
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "United Kingdom of Great Britain and Northern Ireland",
+      "weight": 1791
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "United Rep. of Tanzania",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "United States of America",
+      "weight": 265
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Uruguay",
+      "weight": 5
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Venezuela (Bolivarian Republic of)",
+      "weight": 29
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Yemen",
+      "weight": 12
+    },
+    {
+      "source": "Syrian Arab Rep.",
+      "target": "Zambia",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Argentina",
+      "weight": 1159
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Australia",
+      "weight": 151
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Austria",
+      "weight": 34
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Belgium",
+      "weight": 193
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Bolivia (Plurinational State of)",
+      "weight": 841
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Brazil",
+      "weight": 13011
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Bulgaria",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Canada",
+      "weight": 331
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Chile",
+      "weight": 394
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Colombia",
+      "weight": 11832
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Costa Rica",
+      "weight": 1009
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Czechia",
+      "weight": 6
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Denmark",
+      "weight": 13
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Dominican Rep.",
+      "weight": 47
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Ecuador",
+      "weight": 4275
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "El Salvador",
+      "weight": 15
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Finland",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "France",
+      "weight": 580
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Germany",
+      "weight": 574
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Greece",
+      "weight": 16
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Guatemala",
+      "weight": 38
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Iceland",
+      "weight": 109
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Indonesia",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Ireland",
+      "weight": 37
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Italy",
+      "weight": 829
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Lebanon",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Luxembourg",
+      "weight": 44
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Malta",
+      "weight": 38
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Mexico",
+      "weight": 3292
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Montenegro",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Netherlands",
+      "weight": 105
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Norway",
+      "weight": 28
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Panama",
+      "weight": 137
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Paraguay",
+      "weight": 1288
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Peru",
+      "weight": 51714
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Poland",
+      "weight": 14
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Portugal",
+      "weight": 14
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Rep. of Korea",
+      "weight": 8
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Romania",
+      "weight": 5
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Sint Maarten (Dutch part)",
+      "weight": 8
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Spain",
+      "weight": 28365
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Suriname",
+      "weight": 76
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Sweden",
+      "weight": 214
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Switzerland",
+      "weight": 13
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Trinidad and Tobago",
+      "weight": 3244
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "United Kingdom of Great Britain and Northern Ireland",
+      "weight": 19
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "United States of America",
+      "weight": 28380
+    },
+    {
+      "source": "Venezuela (Bolivarian Republic of)",
+      "target": "Uruguay",
+      "weight": 398
+    }
+  ]
+}
