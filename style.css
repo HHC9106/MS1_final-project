@@ -1,56 +1,141 @@
 /* Quantative Part */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-text {
+/* text {
     font-family: sans-serif;
     font-size: 10px;
-}
-#container {
-    border: 1px solid orange;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    /* overflow: hidden; */
+} */
+
+.meta-container {
+  border: 1px solid orange;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 200vw;
+  height: 100vh;
+  /* overflow: hidden; */
 }
 
 #quant-container {
-    border: 1px solid green;
-    position: relative;
-    display: flex;
-    flex-direction:column;
-    width: 100vw;
-    height: 100vh;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  transition: opacity 2s ease-in-out;
 }
 
 #quali-container {
-    border: 1px solid yellow;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
+  border: 1px solid red;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#scrollButton {
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  right: 0;
+}
+
+#scrollBackButton {
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  left: 0;
+}
+
+#quant-container.fade-out {
+  /* background-color: #292929; */
+  transition: transform 1s ease-in-out;
+}
+
+#quali-container.fade-out {
+  background-color: #292929;
+  opacity: 1;
+  transform: scale(10);
+  transition: transform 1s ease-in-out;
 }
 
 .quant-title {
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid blue;
+  /* background-color: #434343; */
+  display: flex;
+  justify-content: center;
+  color: darkgrey;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: 'Benton', sans-serif;
+  /* margin-left: 40px; */
+}
+.quali-title {
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid blue;
+  /* background-color: #434343; */
+  display: flex;
+  justify-content: center;
+  color: darkgrey;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: 'Benton', sans-serif;
+  /* margin-left: 40px; */
+}
+
+#radialviz {
+  display: flex;
+  /* border: 3px solid green; */
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 80vh;
+  /* margin-left: 50px; */
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+
+#forcegraph {
+  /* border: 10px solid rgb(255, 225, 0); */
+  background-color: aquamarine;
+  width: 100vw;
+  height: 80vh;
+  /* flex-grow: 1; */
+  opacity: 1;
+  bottom: 0;
+}
+
+#circlebar {
+  position:absolute;
+  display: flex;
+  border: 1px solid red;
+  width: 100vw; 
+  height: 20vh;
+  font-weight: 800;
+  font-size: 92px;
+  line-height: 1.2;
+  font-family: 'Benton', sans-serif;
+  bottom:0;
+}
+
+.filter {
+    width: 100vw;
+    height: 10vh;
     border: 1px solid blue;
-    display: flex;
-    justify-content: left;
-    color: darkgrey;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.2;
-    font-family: 'Benton', sans-serif;
-    margin-left: 40px;
 }
 
 .donors {
-    color: #433FF7;
+  color: #433ff7;
 }
 
 /* .btns {
@@ -69,8 +154,8 @@ text {
 } */
 
 .button {
-    border: 1px solid pink;
-    /* color: grey;
+  border: 1px solid pink;
+  /* color: grey;
     font-size: 15px;
     text-align: right;
     padding: 10px;
@@ -80,40 +165,26 @@ text {
 }
 
 .button:hover {
-    /* opacity: 1; */
-    fill: #433FF7;
-    /* transition: opacity 250ms ease; */
+  /* opacity: 1; */
+  fill: #433ff7;
+  /* transition: opacity 250ms ease; */
 }
 
-.viz {
+/* .viz {
     display: flex;
     width: 100vw;
     height: 100vh;
     margin-top: 40px;
     justify-content: space-around;
-}
+} */
 
-#radialviz {
-    /* border: 1px solid rgb(255, 225, 0); */
-    width: 100vw;
-    height: 10;
-    margin-left: 50px;
-    opacity: 1;
-    transition: opacity 250ms ease;
-}
+
 
 /* Qualitative Part */
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .content {
-    color: black;
+  color: black;
 }
-
-
 
 /* .content {
     border: 1px solid black;
@@ -125,81 +196,48 @@ body {
     
 } */
 
-.quali-title {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: center;
-    color: darkgrey;
-    width: 100vw;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 1.2;
-    font-family: 'Benton', sans-serif;
-}
 
-.viz {
-    border: 1px solid red;
-    display: flex;
-    width: 100vw;
-    height: 80vh;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-content: space-around;
-}
 
-#forcegraph {
-    /* border: 10px solid rgb(255, 225, 0); */
-    flex-grow: 1;
-    opacity: 1;
-}
 
-text {
-    font-family: sans-serif;
-    font-size: 10px;
-    font-weight: medium;
-}
+/* text {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: medium;
+} */
 
 .label-group {
-    background: white;
+  background: white;
 }
 
 .tooltip {
-    position: absolute;
-    padding: 8px;
-    top: 0;
-    background-color: rgba(224, 224, 224, 0.5);
-    color: #434343;
-    visibility: hidden;
-    z-index: 10000;
+  position: absolute;
+  padding: 8px;
+  top: 0;
+  background-color: rgba(224, 224, 224, 0.5);
+  color: #434343;
+  visibility: hidden;
+  z-index: 10000;
 }
 
 #drawer-holder {
-    border-right: 3px solid rgb(255, 225, 0);
-    position: absolute;
-    left: -20vw;
-    top: 0;
-    width: 20vw;
-    height: 100vh;
-    /* margin-left: 50px; */
-    opacity: 1;
-    transition: all 2500ms ease;
+  border-right: 3px solid rgb(255, 225, 0);
+  position: absolute;
+  left: -20vw;
+  top: 0;
+  width: 20vw;
+  height: 100vh;
+  /* margin-left: 50px; */
+  opacity: 1;
+  transition: all 2500ms ease;
 }
 
 .open {
-    transform: translateX(20vw);
+  transform: translateX(20vw);
 }
 
-.circlebar {
-    /* border: 1px solid blue; */
-    width: 100vw;
-    height: 20vh;
-    font-weight: 800;
-    font-size: 92px;
-    line-height: 1.2;
-    font-family: 'Benton', sans-serif;
-}
+
 
 .circle-title {
-    font-size: 9px;
-    font-weight: light; /* You can adjust this value as needed */
-  }
+  font-size: 9px;
+  font-weight: light; /* You can adjust this value as needed */
+}

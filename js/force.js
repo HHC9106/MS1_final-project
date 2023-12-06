@@ -1,5 +1,7 @@
 
 const margin = ({ top: 0, right: 0, bottom: 0, left: 0 })
+// const width = 1200;
+// const height = 800;
 const width = document.querySelector("#forcegraph").clientWidth;
 const height = document.querySelector("#forcegraph").clientHeight;
 const center = { x: width / 2, y: height / 2 };
@@ -8,7 +10,7 @@ const drawer = document.querySelector("#drawer-holder")
 const content = document.querySelector(".content")
 
 
-var svg = d3.select("#forcegraph")
+var forceSvg = d3.select("#forcegraph")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -44,7 +46,6 @@ Promise.all([
         }
     }
 
-    const svg = d3.select("svg");
     const tooltip = d3.select("body").append("div").attr("class", "tooltip");
     let isClicked = false;
 
@@ -66,7 +67,7 @@ Promise.all([
                 });
             })
 
-        const link = svg.append("g")
+        const link = forceSvg.append("g")
             .attr("class", "links")
             .selectAll("line")
             .data(links)
@@ -74,7 +75,7 @@ Promise.all([
             .attr("stroke-width", function (d) { return Math.sqrt(+d.value) / 4; })
             .style('stroke', d => { return "#d3d3d3" })
 
-        const node = svg.append("g")
+        const node = forceSvg.append("g")
             .attr("class", "nodes")
             .selectAll("g")
             .data(nodes)
