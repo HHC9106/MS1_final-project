@@ -63,7 +63,7 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
     .attr('fill', function (d) {
       return z(d.key);
     })
-    .attr("class", function (d) { return 'button ' })
+    .attr("class", function (d) { return 'button-radial' })
     .attr("id", d => `${d.key}group`)
     .selectAll('path')
     .data(function (d) {

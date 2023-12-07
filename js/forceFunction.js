@@ -1,38 +1,49 @@
-const margin = ({ top: 10, right: 0, bottom: 0, left: 0 })
-const width = document.querySelector("#forcegraph").clientWidth;
-const height = document.querySelector("#forcegraph").clientHeight;
-const center = { x: width / 2, y: height / 2 };
+function updateForceGraph(filteredLinkData, filteredNodeData) {
+    d3.select("#forcegraph svg")
+        .transition()
+        .duration(500)
+        .remove();
 
-const drawer = document.querySelector("#drawer-holder")
-const content = document.querySelector(".content")
+    const margin = ({ top: 10, right: 0, bottom: 10, left: 0 })
+    const width = document.querySelector("#forcegraph").clientWidth;
+    const height = document.querySelector("#forcegraph").clientHeight- margin.bottom;
+    const center = { x: width / 2, y: height / 2 };
+    let textSize = d3.scaleOrdinal().range([20, 10, 20, 20, 20, 20]);
+    let textWeight = d3.scaleOrdinal().range([500, 300, 500, 500, 500]);
+    let nodeColor = d3.scaleOrdinal().range(["#433FF7", "#FDA431"]);
+    let linkColor = d3.scaleOrdinal().range(["#20578a", "#d9534f", "#527772", "#bf79b4", "#ffd800"]);
+    const drawer = document.querySelector("#drawer-holder")
+    const content = document.querySelector(".content")
 
+    // Append a container for the new SVG with initial opacity set to 0
+    const forceContainer = d3.select("#forcegraph")
+        .append("div") // Use a div container to hold the SVG
+        .attr("id", "force-container") // Give it an id for easy selection
+        .style("opacity", 0); 
+         
 
-var forceSvg = d3.select("#forcegraph")
-    .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height - margin.top - margin.bottom)
-    .append("g")
-    .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+    var forceSvg = forceContainer
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height - margin.top - margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
 
-let textSize = d3.scaleOrdinal().range([20, 10, 20, 20, 20, 20]);
-let textWeight = d3.scaleOrdinal().range([500, 300, 500, 500, 500]);
-let nodeColor = d3.scaleOrdinal().range(["#433FF7", "#FDA431"]);
-let linkColor = d3.scaleOrdinal().range(["#20578a", "#d9534f", "#527772", "#bf79b4", "#ffd800"]);
+    // Apply a transition to gradually fade in the container and move it to the center
+    forceContainer
+        .transition()
+        .duration(500) // Set the duration of the transition in milliseconds
+        .style("opacity", 1); // Set the final opacity to 1
 
-
-Promise.all([
-    d3.csv("./data/data_quali/node_all.csv"),
-    d3.csv("./data/data_quali/link_all.csv")
-]).then(function (data) {
-    const nodes = data[0].filter(d => d.year === '1940-1950')
-    const links = data[1].filter(d => d.year === '1940-1950')
+    const nodes = filteredNodeData
+    const links = filteredLinkData
     links.forEach((l, i) => links[i].value = +(links[i].value))
     console.log(nodes);
     console.log(links);
 
     nodes.forEach((n, i) => {
-            nodes[i]["source"] = []; 
+        nodes[i]["source"] = [];
     })
 
     for (let i = 0; i < nodes.length; i++) {
@@ -88,10 +99,11 @@ Promise.all([
             .on("click", (e, d) => {
                 // drawer.classList.add("open")
                 console.log(e.target.id)
-                drawer.innerHTML =`<h1>${e.target.id}</h1>`
+                drawer.innerHTML = `<h1>${e.target.id}</h1>`
                 isClicked = !isClicked; // Toggle the click state
                 const target = e.target.id;
-                const filteredData = data[0].filter(d => d.id === target)
+                console.log(target)
+                const filteredData = nodes.filter(d => d.id === target)
                 const targetSource = d.source;
                 if (isClicked) {
                     if (d.group === "1") {
@@ -159,28 +171,10 @@ Promise.all([
                 .attr("transform", function (d) {
                     return "translate(" + d.x + "," + d.y + ")";
                 })
-            // .attr("cx", function (d) { return d.x; })
-            // .attr("cy", function (d) { return d.y; });
 
-            // text.attr("transform", transform);
         }
-        // function dragstarted(d) {
-        //     if (!d3.event.active) simulation.alphaTarget(0.7).restart();
-        //     d.fx = d.x;
-        //     d.fy = d.y;
-        // }
 
-        // function dragged(d) {
-        //     d.fx = d3.event.x;
-        //     d.fy = d3.event.y;
-        // }
-
-        // function dragended(d) {
-        //     if (!d3.event.active) simulation.alphaTarget(0);
-        //     d.fx = null;
-        //     d.fy = null;
-        // }
-    }
+    };
 
     forceLayoutGenerator(nodes, links)
-});
+}
