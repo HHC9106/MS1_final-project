@@ -148,7 +148,7 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
     .text("Amount of Artworks in Each 25 years");
 
   const defaultOpacity = 0.5; // Adjust this value based on your preference
-  const buttons = document.querySelectorAll(".button");
+  const buttons = document.querySelectorAll(".button-radial");
 
   function updateOpacity(target, isActive) {
     if (isActive) {
@@ -164,8 +164,9 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
   buttons.forEach((button) => {
     button.addEventListener('mouseover', (event, d) => {
       const id = event.target.id
+      console.log(id)
       svg.selectAll(`#${id}`).style('opacity', 1);
-      svg.selectAll(`path:not(#${id})`).style('opacity', 0);
+      svg.selectAll(`path:not(#${id})`).style('opacity', 0.2);
     });
 
     button.addEventListener('mouseout', (event) => {
