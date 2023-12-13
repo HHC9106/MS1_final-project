@@ -75,7 +75,7 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
         .style("border-radius", "4px")
         .style("pointer-events", "none")
         .attr('fill', '#FDA431')
-        .style("top", "225px") // Adjust as needed
+        .style("top", "235px") // Adjust as needed
         .style("right", "22px"); // Adjust as needed
 
     let isClicked = false;

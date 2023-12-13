@@ -60,7 +60,21 @@ text {
   border: none;
   width: 10vw;
   height: 5vh;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+
+#scrollButton:hover,
+#scrollBackButton:hover {
+  transform: scale(1.1); /* Scale to 110% on hover */
   opacity: 1;
+}
+
+#scrollButton:active,
+#scrollBackButton:active {
+  opacity: 0.2; /* Reduce opacity on click */
 }
 
 #scrollButton {
@@ -88,13 +102,13 @@ text {
 }
 
 
-/* #scrollButton:hover{
+#scrollButton:hover{
   opacity: 1;
 }
 
 #scrollBackButton:hover {
   opacity: 1;
-} */
+}
 
 #quant-container.fade-out {
   /* background-color: #292929; */

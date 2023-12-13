@@ -78,7 +78,7 @@ function updateRadial(RadialData) {
 
   x.domain(RadialData.map(function (d) { return d.TwonHalfDecade; }));
 
-  if (maxSumFinal > 10000) {
+  if (maxSumFinal > 12000) {
     y.domain([0, 25000]);
   } else {
     y.domain([0, 7500]);
@@ -198,7 +198,7 @@ function updateRadial(RadialData) {
         .style("opacity", .9)
       tooltipMedium
         .html(function () {
-          return formatDonorName(medium).toUpperCase() + "<br/>" + sum + " artworks";
+          return formatDonorName(medium).toUpperCase() + "<br/>" + sum + " artworks total";
         })
         .style('font-size', '18pt')
         .style('color', z(medium));
