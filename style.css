@@ -3,6 +3,13 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden; /* Disable scrolling for the entire body */
+}
+
+
+/* To re-enable scrolling for a specific element (if needed) */
+.scrollable-content {
+  overflow: auto;
 }
 
 text {
@@ -79,21 +86,6 @@ text {
   background-position: center center;
   left: 0;
 }
-
-.button-with-text-and-image {
-  display: flex;
-  position: relative;
-  align-items: center;
-  /* Add other styling properties as needed */
-}
-
-.button-text {
-  position: relative;
-  margin-left: 10px; /* Adjust the margin as needed */
-  /* Add other styling properties as needed */
-}
-
-
 
 
 /* #scrollButton:hover{
