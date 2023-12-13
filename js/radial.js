@@ -1,66 +1,99 @@
-const radialviz = document.querySelector("#radialviz")
+function updateRadial(RadialData) {
+  d3.select("#radialviz svg")
+    .transition()
+    .duration(0)
+    .remove();
 
-// define dimensions and margins for the graphic
-// const margin = ({ top: 100, right: 50, bottom: 100, left: 0 })
-const radialWidth = radialviz.offsetWidth;
-const radialHeight = radialviz.offsetHeight
-const innerRadius = 300;
-const outerRadius = 900;
+  // const margin = ({ top: 100, right: 50, bottom: 100, left: 0 })
+  const radialWidth = document.querySelector("#radialviz").clientWidth;
+  const radialHeight = document.querySelector("#radialviz").clientHeight;
+  const innerRadius = 300;
+  const outerRadius = 900;
 
+  // An angular x-scale
+  const x = d3.scaleBand()
+    .range([-0.5 * Math.PI, 0.5 * Math.PI])
+    .align(0);
 
-// JSON object to count occurances for each year
+  // A radial y-scale maintains area proportionality of radial bars
+  const y = d3.scaleRadial()
+    .range([innerRadius, outerRadius]);
 
-var svg = d3.select("#radialviz")
-  .append("svg")
-  .attr("width", radialWidth)
-  .attr("height", radialHeight)
+  const mediumList = ["DecorativeArt", "Drawing", "IndexOfAmericanDesign", "Painting", "Photograph", "Portfolio", "Print", "Sculpture", "TechnicalMaterial", "TimeBasedMediaArt", "Volume"]
 
-g = svg.append("g").attr("transform", "translate(" + (radialWidth / 3.7) + "," + (radialHeight - 20) + ")");
+  const z = d3.scaleOrdinal()
+    .domain(mediumList)
+    .range([
+      "#e377c2", // Pink 
+      "#1f77b4", // Blue
+      "#ff7f0e", // Orange
+      "#2ca02c", // Green      
+      "#fc8d62", // Coral
+      "#9467bd", // Purple
+      "#d62728",  // Red
+      "#17becf", // Teal
+      "#7f7f7f", // Gray
+      "#d3d3d3", // light Gray
+      "#8da0cb" // Light Blue
+    ]);
 
+  function formatDonorName(name) {
+    return name.replace(/([A-Z])/g, ' $1').trim(); // Add a space before capital letters
+  }
 
-// An angular x-scale
-const x = d3.scaleBand()
-  .range([-0.5 * Math.PI, 0.5 * Math.PI])
-  .align(0);
-
-// A radial y-scale maintains area proportionality of radial bars
-const y = d3.scaleRadial()
-  .range([innerRadius, outerRadius]);
-
-const z = d3.scaleOrdinal()
-  .range(["#e377c2", // Pink 
-    "#1f77b4", // Blue
-    "#ff7f0e", // Orange
-    "#2ca02c", // Green
-    "#9467bd", // Purple
-    "#8c564b", // Brown
-    "#66c2a5", // Light Green
-    "#bcbd22", // Olive
-    "#17becf", // Teal
-    "#1a9850", // Dark Green
-    "#7f7f7f", // Gray
-    "#fc8d62", // Coral
-    "#8da0cb", // Light Blue
-    "#a6d854", // Yellow Green
-    "#d62728",  // Red
-    "#d3d3d3" // light Gray
-  ]);
-
-d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
-
-  var subgroups = data.columns.slice(1)
+  const subgroups = mediumList;
   console.log(subgroups)
+  // var itemLength = subgroups.length
+  // console.log(itemLength)
 
-  x.domain(data.map(function (d) { return d.TwonHalfDecade; }));
-  y.domain([0, 25000]);
+  var maxSum = d3.max(RadialData, function (d) {
+    // Sum the values for each row excluding the first column
+    return d3.sum(subgroups, function (subgroup) { return +d[subgroup]; });
+  });
+
+  maxSumFinal = Math.ceil(maxSum / 500) * 500;
+  console.log(maxSum)
+  console.log(maxSumFinal)
+
+  const tooltipMedium = d3.select("#radialviz")
+    .append("div")
+    .attr("class", "tooltip-medium")
+    .style("opacity", 0)
+    .style("position", "absolute")
+    // .style("background", "#ffffff")
+    // .style("border", "1px solid #d3d3d3")
+    .style("border-radius", "4px")
+    .style("pointer-events", "none")
+    .style("top", "185px") // Adjust as needed
+    .style("left", "305px"); // Adjust as needed;
+
+
+  var svg = d3.select("#radialviz")
+    .append("svg")
+    .attr("width", radialWidth)
+    .attr("height", radialHeight)
+    .style('background-color', maxSumFinal > 10000 ? '#ffebd7' : 'rgb(252, 244, 233)'); // Change 'lightblue' to the desired color
+
+  g = svg.append("g").attr("transform", "translate(" + (radialWidth / 3) + "," + (radialHeight - 20) + ")");
+
+  x.domain(RadialData.map(function (d) { return d.TwonHalfDecade; }));
+
+  if (maxSumFinal > 10000) {
+    y.domain([0, 25000]);
+  } else {
+    y.domain([0, 7500]);
+  }
+
   z.domain(subgroups);
+
 
   g.append('g')
     .selectAll('g')
-    .data(d3.stack().keys(data.columns.slice(1))(data))
+    .data(d3.stack().keys(subgroups)(RadialData))
     .enter()
     .append('g')
     .attr('fill', function (d) {
+      console.log(d.key)
       return z(d.key);
     })
     .attr("class", function (d) { return 'button-radial' })
@@ -91,16 +124,12 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
         .padRadius(innerRadius)
     );
 
-
   console.log(subgroups)
   subgroups.forEach((s, i) => d3.selectAll(`#${s}group path`).attr("id", s))
 
-
-  //Label
-
   var label = g.append("g")
     .selectAll("g")
-    .data(data)
+    .data(RadialData)
     .enter().append("g")
     .attr("text-anchor", "middle")
     .attr("font-size", 13)
@@ -110,10 +139,6 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
     });
 
 
-  // label.append("line")
-  //   .attr("x2", -5)
-  //   .attr("stroke", "#000");
-
   label.append("text")
     .attr("transform", function (d) { return (x(d.TwonHalfDecade) + x.bandwidth() / 2 + Math.PI / 2) % (2 * Math.PI) < Math.PI ? "rotate(90)translate(0,16)" : "rotate(-90)translate(0,-9)"; })
     .text(function (d) { return d.TwonHalfDecade; });
@@ -121,12 +146,10 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
   var yAxis = g.append("g")
     .attr("text-anchor", "middle");
 
-
   var yTick = yAxis
     .selectAll("g")
     .data(y.ticks(5).slice(1))
     .enter().append("g");
-
 
   yTick.append("circle")
     .attr("fill", "none")
@@ -135,12 +158,12 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
     .attr("r", y);
 
   yTick.append("text")
+    .attr("id", "ytickText")
     .attr("y", function (d) { return -y(d); })
     .attr("dy", "-.5em")
     .text(y.tickFormat(5, "s"))
-    .attr("font-size", 14)
+    .attr("font-size", '14pt')
     .attr("fill", "#a7a7a7");
-
 
   yAxis.append("text")
     .attr("y", function (d) { return -y(y.ticks(5).pop()); })
@@ -160,52 +183,38 @@ d3.csv('./data/data_quant/NGA_top15donor.csv').then(function (data) {
     }
   }
 
-
   buttons.forEach((button) => {
     button.addEventListener('mouseover', (event, d) => {
       const id = event.target.id
+      const medium = id.replace("group", ""); // Use the formatting function
+      const sum = d3.sum(RadialData, (d) => +d[medium]);
+
       console.log(id)
+      console.log(medium)
+
+      // Show tooltip with donor name
+      tooltipMedium.transition()
+        .duration(100)
+        .style("opacity", .9)
+      tooltipMedium
+        .html(function () {
+          return formatDonorName(medium).toUpperCase() + "<br/>" + sum + " artworks";
+        })
+        .style('font-size', '18pt')
+        .style('color', z(medium));
+
       svg.selectAll(`#${id}`).style('opacity', 1);
       svg.selectAll(`path:not(#${id})`).style('opacity', 0.2);
     });
 
     button.addEventListener('mouseout', (event) => {
+      // Hide tooltip
+      tooltipMedium.transition()
+        .duration(200)
+        .style("opacity", 0);
+
       svg.selectAll(`path`).style('opacity', 1);
     });
   });
 
-});
-
-// const button = document.querySelectorAll('.button');
-// const charts = document.querySelectorAll('#radialviz.subgroups');
-
-
-
-
-
-
-// const btns = document.querySelector('.btns');
-
-// btns.addEventListener("mouseover", (event) => {
-//   const target = event.target.getAttribute("data-chart-id");
-//   // Log the target for debugging
-//   console.log("Mouseover target:", target);
-
-//   // Dim all paths within groups
-//   svg.selectAll("g > path")
-//     .attr("opacity", 0.2);
-
-//   // Highlight paths within the target group
-//   svg.selectAll(`.${target} > path`)
-//     .attr("opacity", 1);
-// });
-
-// btns.addEventListener('mouseout', (event) => {
-//   const target = event.target.getAttribute('data-chart-id');
-//   // Log the target for debugging
-//   console.log("Mouseout target:", target);
-
-//   // Reset opacity for all paths within groups
-//   svg.selectAll("g > path")
-//     .attr("opacity", 1);
-// });
+}

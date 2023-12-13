@@ -63,20 +63,22 @@ d3.csv('./data/data_quali/circleData_donateYear.csv').then(function (data) {
     .attr('cx', (d, i) => i * circleWidth + circleWidth / 3) // Equally distribute circles
     .attr('cy', ycenter) // Center the circles vertically
     .attr('r', (d) => Math.max(Math.sqrt(+d.counts) / 2, 8)) // Set the radius based on the data
-    .attr('fill', 'lightgrey')
-    .attr('stroke', '#1111')
+    .attr('fill', 'white')
+    .attr('stroke', (d) => d.Year===selectedYear?'#433FF7':'#2222')
+    .attr('stroke-width', (d) => d.Year===selectedYear?'8':'5')
+    .attr('stroke-dasharray',  (d) => d.Year===selectedYear?'4,3':'none')
     .attr('text', (d) => d.Year)
     .on('click', (e, d) => {
       console.log(d)
       updateData(d.Year);
 
       barSvg.selectAll('circle')
-        .attr('fill', 'lightgrey')
-        .attr('stroke-width', '1')
-        .attr('stroke', '#1111')
+        .attr('fill', 'white')
+        .attr('stroke-width', '5')
+        .attr('stroke', '#2222')
         .attr('stroke-dasharray', 'none');
       d3.select(e.target)
-        .attr('fill', 'lightgrey')
+        .attr('fill', 'white')
         .attr('stroke', '#433FF7')
         .attr('stroke-width', '8')
         .attr('stroke-dasharray', '4,3'); // Replace 'selectedColor' with your desired color
@@ -99,6 +101,7 @@ d3.csv('./data/data_quali/circleData_donateYear.csv').then(function (data) {
     .attr('x', (d, i) => i * circleWidth + circleWidth / 3)
     .attr('y', ycenter + 90) // Adjust this value based on your layout
     .attr('text-anchor', 'middle')
+    .style("fill",'#292929')
     .text((d) => d.Year)
     .classed('circle-title', true);
 });

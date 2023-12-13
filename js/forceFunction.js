@@ -6,7 +6,7 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
 
     const margin = ({ top: 10, right: 0, bottom: 10, left: 0 })
     const width = document.querySelector("#forcegraph").clientWidth;
-    const height = document.querySelector("#forcegraph").clientHeight- margin.bottom;
+    const height = document.querySelector("#forcegraph").clientHeight - margin.bottom;
     const center = { x: width / 2, y: height / 2 };
     let textSize = d3.scaleOrdinal().range([20, 10, 20, 20, 20, 20]);
     let textWeight = d3.scaleOrdinal().range([500, 300, 500, 500, 500]);
@@ -19,8 +19,8 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
     const forceContainer = d3.select("#forcegraph")
         .append("div") // Use a div container to hold the SVG
         .attr("id", "force-container") // Give it an id for easy selection
-        .style("opacity", 0); 
-         
+        .style("opacity", 0);
+
 
     var forceSvg = forceContainer
         .append("svg")
@@ -54,7 +54,30 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
         }
     }
 
-    const tooltip = d3.select("body").append("div").attr("class", "tooltip");
+    const tooltip = d3.select("body").append("div").attr("class", "tooltip")
+
+    const tooltipCircle = d3.select("#forcegraph")
+        .append("div")
+        .attr("class", "tooltip-circle")
+        .style("opacity", 0)
+        .style("position", "absolute")
+        .style("border-radius", "4px")
+        .style("pointer-events", "none")
+        .attr('fill', '#433ff7')
+        .style("top", "130px") // Adjust as needed
+        .style("right", "195px"); // Adjust as needed
+
+    const tooltipAritist = d3.select("#forcegraph")
+        .append("div")
+        .attr("class", "tooltip-artist")
+        .style("opacity", 0)
+        .style("position", "absolute")
+        .style("border-radius", "4px")
+        .style("pointer-events", "none")
+        .attr('fill', '#FDA431')
+        .style("top", "225px") // Adjust as needed
+        .style("right", "22px"); // Adjust as needed
+
     let isClicked = false;
 
     function forceLayoutGenerator(nodesData, linksData) {
@@ -97,17 +120,14 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
             .attr("stroke", '#ffd800') // Add a white stroke
             .attr("stroke-width", 0.5) // Specify the stroke width
             .on("click", (e, d) => {
-                // drawer.classList.add("open")
                 console.log(e.target.id)
-                drawer.innerHTML = `<h1>${e.target.id}</h1>`
                 isClicked = !isClicked; // Toggle the click state
                 const target = e.target.id;
-                console.log(target)
-                const filteredData = nodes.filter(d => d.id === target)
+                console.log(d.id)
                 const targetSource = d.source;
                 if (isClicked) {
                     if (d.group === "1") {
-                        drawer.classList.add("open")
+                        // drawer.classList.add("open")
                         node.selectAll(".node").attr("opacity", (d, i) => {
                             if (targetSource.includes(d.id) || d.id === target) {
                                 return 1;
@@ -117,8 +137,34 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
                         });
                     }
                 } else {
-                    drawer.classList.remove();
+                    // drawer.classList.remove();
                     node.selectAll(".node").attr("opacity", 1); // Reset opacity when clicked again
+                }
+
+                let color = nodeColor(d.group);
+
+
+                if (isClicked && d.group === "1") {
+
+                    console.log(d)
+                    // Show tooltip with donor name
+                    tooltipCircle.transition()
+                        .duration(200)
+                        .style("opacity", .9)
+
+                    tooltipCircle.html(function () {
+                        return d.id + "<br/>" + "donated " + "<br/>" + d.sum + " artworks";
+                    })
+                        .style('font-size', '18pt')
+                        .style("color", color)
+                        .style("text-shadow", "-0.5px -0.5px 0.5px #fff, 0.5px -0.5px 0.5px #fff, -0.5px 0.5px 0.5px #fff, 0.5px 0.5px 0.5px #fff")
+                        .style("text-align", "right");
+
+                } else {
+                    // Hide tooltip if not clicked or if the condition is not met
+                    tooltipCircle.transition()
+                        .duration(200)
+                        .style("opacity", 0);
                 }
             })
             .on("mouseover", (e, d) => {
@@ -139,17 +185,50 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
                         }
                     });
                 }
+
+                if (isClicked && d.group === "2") {
+                    // Show tooltip with donor name
+                    tooltipAritist.transition()
+                        .duration(200)
+                        .style("opacity", .9)
+
+                    tooltipAritist.html(function () {
+                        return d.id + "<br/>" + "created " + "<br/>" + d.sum + " artworks <br/> for NGA collection";
+                    })
+                        .style('font-size', '18pt')
+                        .style("color", color)
+                        .style("text-shadow", "-0.5px -0.5px 0.5px #fff, 0.5px -0.5px 0.5px #fff, -0.5px 0.5px 0.5px #fff, 0.5px 0.5px 0.5px #fff")
+                        .style("text-align", "right");
+
+                } else {
+                    // Hide tooltip if not clicked or if the condition is not met
+                    tooltipAritist.transition()
+                        .duration(200)
+                        .style("opacity", 0);
+                }
+
             })
             .on("mousemove", (e, d) => {
                 tooltip
                     .style("top", e.pageY - (tooltip.node().clientHeight + 5) + "px")
                     .style("left", e.pageX - tooltip.node().clientWidth / 2.0 + "px");
+
+                if (d.group === "2") {
+                    tooltipAritist.transition()
+                        .duration(200)
+                        .style("opacity", .9)
+                }
             })
+
             .on("mouseout", (e, d) => {
                 if (!isClicked && d.group === "1") {
                     node.selectAll(".node").attr("opacity", 1);
                 }
                 tooltip.style("visibility", "hidden");
+
+                tooltipAritist.transition()
+                    .duration(200)
+                    .style("opacity", 0);
             });
 
         simulation.tick(20);
@@ -171,9 +250,7 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
                 .attr("transform", function (d) {
                     return "translate(" + d.x + "," + d.y + ")";
                 })
-
         }
-
     };
 
     forceLayoutGenerator(nodes, links)
