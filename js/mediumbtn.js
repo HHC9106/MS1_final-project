@@ -1,7 +1,7 @@
 const marginMedium = ({ top: 0, right: 0, bottom: 0, left: 0 })
 const widthMedium = document.querySelector("#mediumbtn").clientWidth;
 const heightMedium = document.querySelector("#mediumbtn").clientHeight;
-const ycenterMedium = heightMedium / 2;
+const ycenterMedium = heightMedium / 2+10;
 const mediumTooltip = d3.select("body").append("div").attr("class", "medium-tooltip");
 
 var selectedDonor = 'All';
@@ -15,9 +15,9 @@ const tooltipDonor = d3.select("#radialviz")
   // .style("border", "1px solid #d3d3d3")
   .style("border-radius", "4px")
   .style("pointer-events", "none")
-  .style("top", "130px") // Adjust as needed
   .attr('fill', '#433ff7')
-  .style("left", "115px"); // Adjust as needed;
+  .style("top", "120px") // Adjust as needed
+  .style("left", "125px"); // Adjust as needed;
 
 var mediumSvg = d3
   .select('#mediumbtn')
@@ -42,22 +42,22 @@ d3.csv('./data/data_quant/NGA_top15donor_sum.csv').then(function (data) {
     .attr('cx', (d, i) => i * circleWidthMedium / 1 + circleWidthMedium / 2.5) // Equally distribute circles
     .attr('cy', ycenterMedium) // Center the circles vertically
     .attr('r', (d) => Math.sqrt(+d.counts) / 6 > 43 ? 43 : Math.max(Math.sqrt(+d.counts) / 6, 7))
-    .attr('fill', (d, i) => d.counts > 50000 ? '#f9eee4' : 'white')
+    .attr('fill', 'white')
     .attr('stroke', (d) => d.name===selectedDonor?'#433FF7':'#2222')
     .attr('stroke-width', (d) => d.name===selectedDonor?'8':'5')
-    .attr('stroke-dasharray', (d) => d.name===selectedDonor?'4,3':'none')
+    .attr('stroke-dasharray', (d) => (d.counts > 50000 || d.name === selectedDonor) ? '4,3' : 'none')
     .attr('text', (d) => d.name)
     .on('click', (e, d) => {
       console.log(d)
       updateRadialData(d.name);
 
       mediumSvg.selectAll('circle')
-        .attr('fill', (d, i) => d.counts > 50000 ? '#f9eee4' : 'white')
+        .attr('fill', 'white')
         .attr('stroke-width', '5')
         .attr('stroke', '#2222')
-        .attr('stroke-dasharray', 'none');
+        .attr('stroke-dasharray', (d, i) => d.counts > 50000 ? '4,3' :'none');
       d3.select(e.target)
-        .attr('fill', (d, i) => d.counts > 50000 ? '#f9eee4' : 'white')
+        .attr('fill', 'white')
         .attr('stroke', '#433FF7')
         .attr('stroke-width', '8')
         .attr('stroke-dasharray', '4,3'); // Replace 'selectedColor' with your desired color

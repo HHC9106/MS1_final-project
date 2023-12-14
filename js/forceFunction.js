@@ -54,7 +54,7 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
         }
     }
 
-    const tooltip = d3.select("body").append("div").attr("class", "tooltip")
+    // const tooltip = d3.select("body").append("div").attr("class", "tooltip")
 
     const tooltipCircle = d3.select("#forcegraph")
         .append("div")
@@ -64,8 +64,8 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
         .style("border-radius", "4px")
         .style("pointer-events", "none")
         .attr('fill', '#433ff7')
-        .style("top", "130px") // Adjust as needed
-        .style("right", "195px"); // Adjust as needed
+        .style("top", "120px") // Adjust as needed
+        .style("right", "200px"); // Adjust as needed
 
     const tooltipAritist = d3.select("#forcegraph")
         .append("div")
@@ -75,8 +75,8 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
         .style("border-radius", "4px")
         .style("pointer-events", "none")
         .attr('fill', '#FDA431')
-        .style("top", "235px") // Adjust as needed
-        .style("right", "22px"); // Adjust as needed
+        .style("top", "225px") // Adjust as needed
+        .style("right", "30px"); // Adjust as needed
 
     let isClicked = false;
 
@@ -170,8 +170,8 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
             .on("mouseover", (e, d) => {
                 let color = nodeColor(d.group);
                 let content = `${d.id}`;
-                tooltip.html(content).style("visibility", "visible");
-                tooltip.style("color", color);
+                // tooltip.html(content).style("visibility", "visible");
+                // tooltip.style("color", color);
 
                 const target = e.target.id;
                 const targetSource = d.source;
@@ -209,9 +209,9 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
 
             })
             .on("mousemove", (e, d) => {
-                tooltip
-                    .style("top", e.pageY - (tooltip.node().clientHeight + 5) + "px")
-                    .style("left", e.pageX - tooltip.node().clientWidth / 2.0 + "px");
+                // tooltip
+                //     .style("top", e.pageY - (tooltip.node().clientHeight + 5) + "px")
+                //     .style("left", e.pageX - tooltip.node().clientWidth / 2.0 + "px");
 
                 if (d.group === "2") {
                     tooltipAritist.transition()
@@ -224,7 +224,7 @@ function updateForceGraph(filteredLinkData, filteredNodeData) {
                 if (!isClicked && d.group === "1") {
                     node.selectAll(".node").attr("opacity", 1);
                 }
-                tooltip.style("visibility", "hidden");
+                // tooltip.style("visibility", "hidden");
 
                 tooltipAritist.transition()
                     .duration(200)

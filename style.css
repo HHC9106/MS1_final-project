@@ -3,7 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Disable scrolling for the entire body */
+  overflow: hidden;
+  /* Disable scrolling for the entire body */
 }
 
 
@@ -15,7 +16,26 @@ body {
 text {
   font-family: 'Benton', sans-serif;
   font-size: 10px;
-  color:#292929;
+  color: #292929;
+}
+
+.subtitle {
+  font-family: 'Benton', sans-serif;
+  font-size: 14px;
+  color: #999;
+  margin-left: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5pt;
+}
+
+.subtitle-left {
+  font-family: 'Benton', sans-serif;
+  font-size: 16px;
+  color: #999;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 15px;
+  letter-spacing: 0.5pt;
 }
 
 #ytickText {
@@ -68,13 +88,15 @@ text {
 
 #scrollButton:hover,
 #scrollBackButton:hover {
-  transform: scale(1.1); /* Scale to 110% on hover */
+  transform: scale(1.1);
+  /* Scale to 110% on hover */
   opacity: 1;
 }
 
 #scrollButton:active,
 #scrollBackButton:active {
-  opacity: 0.2; /* Reduce opacity on click */
+  opacity: 0.2;
+  /* Reduce opacity on click */
 }
 
 #scrollButton {
@@ -102,7 +124,7 @@ text {
 }
 
 
-#scrollButton:hover{
+#scrollButton:hover {
   opacity: 1;
 }
 
@@ -150,7 +172,7 @@ text {
   line-height: 1.2;
   font-family: 'Benton', sans-serif;
   margin-right: 15px !important;
-  margin-top: 20px ;
+  margin-top: 20px;
 }
 
 #radialviz {
@@ -346,28 +368,73 @@ text {
 .tooltip-donor {
   font-size: 24px;
   /* font-weight: light; */
+  line-height: 1.2;
   font-family: 'Benton', sans-serif;
   color: #433ff7 !important;
   /* You can adjust this value as needed */
 }
 
+.tooltip-donor::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px; /* Adjust the distance from the text as needed */
+  height: 100%;
+  width: 1px; /* Adjust the thickness of the line as needed */
+  background-color: #433ff7; /* Adjust the color of the line as needed */
+}
+
 .tooltip-medium {
+  position: relative;
   font-size: 24px;
+  /* font-weight: light; */
+  line-height: 1.2;
+  font-family: 'Benton', sans-serif;
+  /* You can adjust this value as needed */
+}
+
+.tooltip-medium::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px; /* Adjust the distance from the text as needed */
+  height: 100%;
+  width: 1px; /* Adjust the thickness of the line as needed */
+}
+
+
+.tooltip-circle {
+  font-size: 24px;
+  line-height: 1.2;
   /* font-weight: light; */
   font-family: 'Benton', sans-serif;
   /* You can adjust this value as needed */
 }
 
-.tooltip-circle {
-  font-size: 24px;
-  /* font-weight: light; */
-  font-family: 'Benton', sans-serif;
-  /* You can adjust this value as needed */
+.tooltip-circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px; /* Adjust the distance from the text as needed */
+  height: 100%;
+  width: 1px; /* Adjust the thickness of the line as needed */
+  background-color: #433ff7; /* Adjust the color of the line as needed */
 }
 
 .tooltip-artist {
   font-size: 24px;
+  line-height: 1.2;
   /* font-weight: light; */
   font-family: 'Benton', sans-serif;
   /* You can adjust this value as needed */
+}
+
+.tooltip-artist::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px; /* Adjust the distance from the text as needed */
+  height: 100%;
+  width: 1px; /* Adjust the thickness of the line as needed */
+  background-color: #FDA431; /* Adjust the color of the line as needed */
 }

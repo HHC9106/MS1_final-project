@@ -64,8 +64,8 @@ function updateRadial(RadialData) {
     // .style("border", "1px solid #d3d3d3")
     .style("border-radius", "4px")
     .style("pointer-events", "none")
-    .style("top", "185px") // Adjust as needed
-    .style("left", "305px"); // Adjust as needed;
+    .style("top", "215px") // Adjust as needed
+    .style("left", "315px"); // Adjust as needed;
 
 
   var svg = d3.select("#radialviz")
@@ -170,6 +170,17 @@ function updateRadial(RadialData) {
     .attr("dy", "-3em")
     .text("Amount of Artworks in Each 25 years");
 
+  // Add a group for the center text
+  var centerTextGroup = g.append("g")
+    .attr("transform", "translate(0, 0)"); // Adjust as needed
+
+  // Add text to the center group
+  centerTextGroup.append("text")
+    .attr("text-anchor", "middle")
+    .style("font-size", '9pt')
+    .attr("fill", "#595959")
+    .text("Artwork Created Years");
+
   const defaultOpacity = 0.5; // Adjust this value based on your preference
   const buttons = document.querySelectorAll(".button-radial");
 
@@ -202,6 +213,18 @@ function updateRadial(RadialData) {
         })
         .style('font-size', '18pt')
         .style('color', z(medium));
+
+      // Create a new div element for the line
+      const lineElement = document.createElement('div');
+      lineElement.style.position = 'absolute';
+      lineElement.style.top = '0';
+      lineElement.style.left = '-10px'; /* Adjust the distance from the text as needed */
+      lineElement.style.height = '100%';
+      lineElement.style.width = '1px'; /* Adjust the thickness of the line as needed */
+      lineElement.style.backgroundColor = z(medium); // Set the color dynamically
+
+      // Append the line as a child to the tooltip element
+      tooltipMedium.node().appendChild(lineElement);
 
       svg.selectAll(`#${id}`).style('opacity', 1);
       svg.selectAll(`path:not(#${id})`).style('opacity', 0.2);
