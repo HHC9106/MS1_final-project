@@ -65,7 +65,7 @@ text {
 }
 
 #quali-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #FDA431;
   position: relative;
   display: flex;
